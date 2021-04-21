@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joquempo</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section class="scoreboard-container">
+            <h1 class="winner-player">jogadora 1 ganhou</h1>
+            <div class="scoreboard">
+                <span class="name-player">Jogadora 1</span>
+                <strong class="score-player point-1"></strong>
+                <strong class="vs">vs</strong>
+                <strong class="score-player point-2"></strong>
+                <span class="name-player">jogadora 2</span>
+            </div>
+        </section>
+        <section class="battle-game">
+            <div class="button-game">
+                <button class="button-click button-stone1">Pedra</button>
+                <button class="button-click button-paper1">Papel</button>
+                <button class="button-click button-scissors1">Tesoura</button>
+            </div>
+            <div class="camp-game">
+                <div class="camp-play camp-player1"></div>
+                <div class="vs-separator">VS</div>
+                <div class="camp-play camp-player2"></div>
+            </div>
+            <div class="button-game ">
+                <button class="button-click button-stone2">Pedra</button>
+                <button class="button-click button-paper2">Papel</button>
+                <button class="button-click button-scissors2">Tesoura</button>
+            </div>    
+        </section>
+        <section class="button-control">
+            <button class="button-click control-start">Iniciar</button>
+            <button class="button-click control-restart">Resetar</button>
+        </section>
+    </main>
+    <script src="script/index.js"></script>
+</body>
+</html>
